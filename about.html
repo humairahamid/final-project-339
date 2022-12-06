@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" href="images/favicon.ico">
+    <link rel="stylesheet" href="css/html5reset.css">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Lora">
+    <title>Cat Facts</title>
+</head>
+<body>
+    <a class="skip-to-content-link" href="#main">
+        Skip to content
+      </a>
+
+<header>
+    <nav>
+        <ul class="nav">
+            <li><a href = "index.html">Homepage</a></li>
+            <li><a class="active" href="about.html">More Info</a></li>
+            <li><a href="maple.html">My Cat</a></li>
+        </ul>
+    </nav>
+</header>
+    <main id="main">
+
+    <h1>Cat Breeds</h1>
+    <button type="button" class="mixbutton" data-filter="all">All</button>
+    <button type="button" class="mixbutton" data-filter=".longhair">Longhaired</button>
+    <button type="button" class="mixbutton" data-filter=".shorthair">Shorthaired</button>
+    <button type="button" class="mixbutton" data-filter=".hairless">Hairless</button>
+<div class="infodiv">
+    <div class = "mix shorthair all">
+    <div class="catpic">
+   <h2>Scottish Folds</h2>
+   <img src="images/scottish_fold.jpg" alt="Grey Scottish fold cat" width="400px">
+   <p>Scottish folds are known for their unique and adorable folded ears</p>
+   <p>These folds are actually caused by a genetic mutation that affects the cartilage in their body to be underdeveloped and weaker, called Osteochondrodysplasia.</p></p>
+  </div>
+ </div>
+  <div class = "mix shorthair all">
+  <div class="catpic">
+    <h2>Domestic Shorthair</h2>
+    <img src="images/American_shorthair.jpg" alt="Orange Domestic Shorthair cat" width="400px">
+    <p>Domestic Shorthairs the most popular and common cat breed in the US! Many don't even consider them a singular "breed" but rather a mixture of many different cat breeds. Domestic Shorthairs come in a variety of different colors and coat patterns. Some include Tabby, Toriosshell, and Calico. </p>
+    </div>
+    </div>
+    <div class = "mix hairless all">
+    <div class="catpic">
+    <h2>Sphynx</h2>
+    <img src="images/Sphynx.jpg" alt="Sphynx cat" width="400px">
+    <p>Sphynx cats are unique for the lack of fur on their bodies. Sphynx's originated from Toronto, Canada in 1966 when a hairless kitten was born from a litter of shorthair kittens, due to a genetic mutation. Friendly in nature and undeniably cute, these cats are one of the most popular cat breeds.</p>
+    </div>
+    </div>
+  <div class = "mix shorthair all">
+  <div class="catpic">
+    <h2>Oriental Shorthair</h2>
+    <img src="images/Oriental_shorthair.jpg" alt="Oriental Shorthair cat" width="400px">
+    <p>Oriental Shorthair cats stand out due to their large ears and angular faces. They are also known to "honk"! <a href="https://www.youtube.com/watch?v=qUM9tQq7b8Q&t=12s"> Click here to listen! </a></p>
+  </div>
+  </div>
+  <div class = "mix longhair all">
+  <div class="catpic">
+    <h2>Ragdoll</h2>
+    <img src="images/Ragdoll.jpg" alt="Ragdoll cat" width="400px">
+    <p>Ragdoll's are often called the "dogs" of the cat species. Known to be affectionate and loyal, they will follow their owners their home around like a puppy. They were given their name because a common quality of most Ragdoll cats is that they will often go limp in their owners arms like a ragdoll! </p>
+  </div>
+  </div>
+  <div class = "mix shorthair all">
+  <div class="catpic">
+    <h2>British Shorthair</h2>
+    <img src="images/British_shorthair.jpg" alt="Grey British Shorthair cat" width="400px">
+    <p>Famous for their round chubby faces, British Shorthair orginated from-You guessed it, Britan! These cats are calm, easy-going and make great pets.</p>
+  </div>
+  </div>
+  <div class = "mix longhair all">
+  <div class="catpic">
+    <h2>Persian</h2>
+    <img src="images/Persian.jpg" alt="White Persian cat" width="400" height="450">
+    <p>The earliest proof of Persian cats dates back to the 1500s, while some suspect these cats to be around even longer than that! Perisan cats originated from Persia and are considered to be one of the oldest cat breeds. They have distictly unique features such as a "smooshed" face with a flat nose and a rounded head.</p>
+  </div>
+  </div>
+  <div class = "mix shorthair all">
+  <div class="catpic">
+    <h2>Siamese</h2>
+    <img src="images/Siamese.jpg" alt="Siamese cat" width="400px">
+    <p> The Siamese breed originated from Siam, Thailand. Siamese are very affectionate cats and are infamous for being the noisiest and most talkative cat breed. <a href="https://www.youtube.com/watch?v=MDb_YSE3bb8"> Click here to listen! </a> </p>
+  </div>
+  </div>
+  <div class = "mix shorthair all">
+<div class="catpic">
+    <h2>Bengal</h2>
+    <img src="images/Bengal.jpg" alt="Bengal cat" width="400px">
+    <p>Bengal cats are different from most other cat breeds due to the fact that they are considered to be a hybrid of domestic and wild cats. Bengals were originally bred from Asian Leopard and Domestic cats. They are adorned with spots similar to their Leopard ancestors, giving them a wild and exotic appearance. </p>
+</div>
+  </div>
+  </div>
+
+<script src="js/mixitup.min.js"></script>
+<script>
+    var containerEl = document.querySelector('.infodiv');
+    var mixer = mixitup(containerEl);
+</script>
+    </main>
+    <footer> Humaira Hamid 2022</footer>
+    </body>
+</html>
