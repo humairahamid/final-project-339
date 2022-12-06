@@ -40,6 +40,7 @@
   color:#212121;
   text-align:center;
   font-size: medium;
+  margin:15px
 
  }
  .mixbutton:hover{
@@ -50,6 +51,7 @@
   display: grid;
   grid-template-columns: 450px; 
   justify-content: center;
+  row-gap: 10px;
   
  
   
@@ -60,7 +62,7 @@
 
 .catpic{
     border: dotted #b7ddc5 2px;
-    margin: 0;
+    margin: 10px;
     text-align: center;
     background-color: #f9dede;
     height: 100%;
@@ -92,6 +94,7 @@ a.skip-to-content-link:focus{
   font-weight: 600;
   color: black;
   text-shadow: 0px 0px 5px #d2f6fd, 0px 0px 10px #93bed3, 0px 0px 10px #93d3cc, 0px 0px 20px #93d3cc;
+  margin:5px;
 }
 
 
@@ -218,9 +221,9 @@ footer{
 
   
 
-.maple img:nth-child(-n+3){
+/* .maple img:nth-child(-n+3){
   display: block;
-}
+} */
 
 
 
